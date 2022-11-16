@@ -1,0 +1,50 @@
+
+#wb_header { background: transparent none repeat scroll left top; height: 240px; }
+#wb_main { background: #f5f5f5 none repeat scroll left top; height: 900px; padding-bottom: 50px; }
+#wb_footer { background: transparent none repeat-x scroll left top; height: 80px; }
+body { background: #f5f5f5 url("../gallery_gen/484c9828277ce73b920041482a028711.jpg") no-repeat fixed center top; }
+.wb_sbg { background: transparent url("../gallery_gen/eff7612b3df4bc0c5266113e8b71a0b0.png") no-repeat scroll center top; }
+body, .wb_sbg { min-width: 1200px; min-height: 1220px; }
+.root { width: 1200px; height: 1220px; overflow: visible; min-height: 1220px; }
+#wb_element_instance25 { left: 0px; top: 170px; min-width: 1200px; width: 1200px; min-height: 40px; height: 40px; display: block; z-index: 354; }
+#wb_element_instance25 ul { background: transparent none repeat scroll right top; border: 1px none #000000; }
+#wb_element_instance25, #wb_element_instance25 ul { text-align: center; }
+#wb_element_instance25 ul ul { background: #1307b8 none repeat scroll right top; }
+#wb_element_instance25 li { margin: 0px 25px 0px 20px; }
+#wb_element_instance25 li a { text-transform: uppercase; border: 1px none #000000; padding: 10px 9px 10px 10px; font: normal bold 20px 'Roboto',sans-serif; text-decoration: none; color: #ffffff; line-height: 22px; background: transparent none no-repeat scroll center top; }
+#wb_element_instance25 li.over > a, #wb_element_instance25 li:focus > a { border: 0px solid #58c8f0; font: normal bold 20px 'Roboto',sans-serif; text-decoration: none; color: #59bdff; line-height: 22px; background: transparent none no-repeat scroll center top; }
+#wb_element_instance25 li.active > a { border: 0px none #000000; font: normal bold 20px 'Roboto',sans-serif; text-decoration: underline; color: #ffffff; line-height: 22px; background: transparent none no-repeat scroll center center; }
+#wb_element_instance25:not(.collapse-expanded) .vmenu ul.open-left,#wb_element_instance25:not(.collapse-expanded) .hmenu ul.open-left { left: auto; right: 100%; }
+#wb_element_instance25:not(.collapse-expanded) .hmenu > li > ul.open-left { left: auto; right: 0; }
+#wb_element_instance26 { left: 543px; top: 10px; min-width: 110px; width: 110px; min-height: 110px; height: 110px; display: block; z-index: 355; }
+#wb_element_instance26 img { width: 110px; height: 110px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance27 { left: 990px; top: 30px; min-width: 180px; width: 180px; min-height: 40px; height: 40px; display: block; z-index: 354; }
+#wb_element_instance28 { left: 33px; top: 10px; min-width: 64px; width: 64px; min-height: 64px; height: 64px; display: block; z-index: 337; }
+#wb_element_instance28 img { width: 64px; height: 64px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance29 { left: 113px; top: 10px; min-width: 64px; width: 64px; min-height: 64px; height: 64px; display: block; z-index: 351; }
+#wb_element_instance29 img { width: 64px; height: 64px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance30 { left: 680px; top: 200px; min-width: 490px; width: 490px; min-height: 56px; height: 56px; display: block; z-index: 68; }
+#wb_element_instance31 { left: 30px; top: 200px; min-width: 630px; width: 630px; min-height: 320px; height: 320px; display: block; z-index: 63; }
+#wb_element_instance31 form .form-area-field { height: 206px; }
+#wb_element_instance31 form td { text-align: right; }
+#wb_element_instance31 form tr.area-row > th { height: 1%; }
+#wb_element_instance31 form tr.area-row > td { height: 1%; }
+#wb_element_instance32 { left: 30px; top: 60px; min-width: 1140px; width: 1140px; min-height: 56px; height: 56px; display: block; z-index: 95; }
+#wb_element_instance33 { left: 30px; top: 550px; min-width: 1140px; width: 1140px; min-height: 300px; height: 300px; display: block; z-index: 71; }
+#wb_element_instance34 { left: 30px; top: 140px; min-width: 630px; width: 630px; min-height: 28px; height: 28px; display: block; z-index: 96; }
+#wb_element_instance35 { left: 0px; top: 790px; display: block; z-index: 9000; }
+#wb_element_instance36 { left: 0px; top: 94px; display: block; z-index: 9999; }
+
+
+#wb_element_instance27 p:last-child { margin-bottom: 0; }
+#wb_element_instance30 p:last-child { margin-bottom: 0; }
+#wb_element_instance31 form tr.form-footer > td { height: 20px; }
+#wb_element_instance32 p:last-child { margin-bottom: 0; }
+#wb_element_instance34 p:last-child { margin-bottom: 0; }
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}

@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+#------------------------------ ruchka-rus.ru
+  ruchka-rus.ru:
+    container_name: ruchka-rus.ru
+    build: .
+    image: ruchka-rus.ru
+    restart: unless-stopped
+    ports:
+      - "3004:80"
+    networks:
+        web:
+            ipv4_address: 192.168.7.8
+
+#------------------------------ NETWORK
+networks:
+    web:
+        name: web
+        # use the bridge driver, but enable IPv6
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.7.0/24
+                  gateway: 192.168.7.1

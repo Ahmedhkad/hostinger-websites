@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+#------------------------------ monolitplus34.ru
+  monolitplus34.ru:
+    container_name: monolitplus34.ru
+    build: .
+    image: monolitplus34.ru
+    restart: unless-stopped
+    ports:
+      - "3002:80"
+    networks:
+        web:
+            ipv4_address: 192.168.7.5
+
+#------------------------------ NETWORK
+networks:
+    web:
+        name: web
+        # use the bridge driver, but enable IPv6
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.7.0/24
+                  gateway: 192.168.7.1

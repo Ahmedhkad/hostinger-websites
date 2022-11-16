@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+#------------------------------ ahmed34.com
+  ahmed34:
+    container_name: ahmed34.com
+    build: .
+    image: ahmed34.com
+    restart: unless-stopped
+    ports:
+      - "3001:80"
+    networks:
+        web:
+            ipv4_address: 192.168.7.4
+
+#------------------------------ NETWORK
+networks:
+    web:
+        name: web
+        # use the bridge driver, but enable IPv6
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.7.0/24
+                  gateway: 192.168.7.1
